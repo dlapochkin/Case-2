@@ -1,6 +1,6 @@
 # Case-study #2
 # Developers:   Lapochkin D. (0%),
-#               Kuznetsov A. (0%),
+#               Kuznetsov A. (25%),
 #               Krivoshapova D. (30%)
 
 br = input('''Из предложенных ниже вариантов выберете соответствующий Вашему семейному положению:
