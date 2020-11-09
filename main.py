@@ -10,8 +10,11 @@ c = int(input("Введите ваш налоговый вычет"))
 t = annual_income - c  # taxable income
 
 if br == 1:
-    a, b, c, d, e, f = 9075, 36900, 89350, 186350, 405100, 406750
+    numbers = [9075, 36900, 89350, 186350, 405100, 406750]
+    a, b, c, d, e, f = list(map(int, numbers))
 if br == 2:
-    a, b, c, d, e, f = 18150, 73800, 148850, 226850, 405100, 457600
+    numbers = [18150, 73800, 148850, 226850, 405100, 457600]
+    a, b, c, d, e, f = list(map(int, numbers))
 if br == 3:
-    a, b, c, d, e, f = 12950, 49400, 127550, 206600, 405100, 432200
+    numbers = [12950, 49400, 127550, 206600, 405100, 432200]
+    a, b, c, d, e, f = list(map(int, numbers))
