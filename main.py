@@ -18,3 +18,12 @@ if br == 2:
 if br == 3:
     numbers = [12950, 49400, 127550, 206600, 405100, 432200]
     a, b, c, d, e, f = list(map(int, numbers))
+
+    if 0 < t <= a:
+        print(t * 0.1)
+    if a < t <= b:
+        print(a * 0.1 + (t - a) * 0.15)
+    if b < t <= c:
+        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0, 25)
+    if a < t <= b:
+        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0, 25) + (t - a - b - d) * 0.28)
