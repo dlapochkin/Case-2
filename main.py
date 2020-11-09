@@ -24,6 +24,6 @@ if br == 3:
     if a < t <= b:
         print(a * 0.1 + (t - a) * 0.15)
     if b < t <= c:
-        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0, 25)
-    if a < t <= b:
-        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0, 25 + (t - a - b - d) * 0.28)
+        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0.25)
+    if c < t <= b:
+        print(a * 0.1 + (t - a) * 0.15 + (t - a - b) * 0.25 + (t - a - b - c) * 0.28)
