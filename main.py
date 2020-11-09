@@ -16,8 +16,8 @@ for month in range(12):
     print('{} {}:'.format(QUESTION, name_month[month], end=''))
     income = float(input())
     annual_income += income
-c = int(input("Введите ваш налоговый вычет"))
-t = annual_income - c  # taxable income
+r = int(input("Введите ваш налоговый вычет"))
+t = annual_income - r  # taxable income
 
 if br == 1:
     numbers = [9075, 36900, 89350, 186350, 405100, 406750]
