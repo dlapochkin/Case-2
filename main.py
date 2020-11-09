@@ -1,4 +1,4 @@
-# Case-study #1
+# Case-study #2
 # Developers:   Lapochkin D. (0%),
 #               Kuznetsov A. (0%),
 #               Krivoshapova D. (0%)
