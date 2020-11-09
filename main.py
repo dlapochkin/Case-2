@@ -1,5 +1,5 @@
 # Case-study #2
-# Developers:   Lapochkin D. (0%),
+# Developers:   Lapochkin D. (35%),
 #               Kuznetsov A. (25%),
 #               Krivoshapova D. (30%)
 
@@ -16,7 +16,8 @@ for month in range(12):
     print('{} {}:'.format(QUESTION, name_month[month], end=''))
     income = float(input())
     annual_income += income
-r = int(input("Введите ваш налоговый вычет "))
+r = int(input('''Введите ваш налоговый вычет
+'''))
 t = annual_income - r  # taxable income
 
 if br == '1':
@@ -42,4 +43,4 @@ if e < t <= f:
     n = 0.1 * a + 0.15 * (b - a) + 0.25 * (c - b) + 0.28 * (d - c) + 0.33 * (e - d) + 0.35 * (t - e)
 if t >= f:
     n = 0.1 * a + 0.15 * (b - a) + 0.25 * (c - b) + 0.28 * (d - c) + 0.33 * (e - d) + 0.35 * (f - e) + 0.396 * (t - f)
-print('Cумма налога составит:', n)
+print('Cумма налога составит:', round(n, 2))
