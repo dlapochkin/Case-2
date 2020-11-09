@@ -1,7 +1,7 @@
 # Case-study #2
 # Developers:   Lapochkin D. (0%),
 #               Kuznetsov A. (0%),
-#               Krivoshapova D. (0%)
+#               Krivoshapova D. (30%)
 
 br = input('''Из предложенных ниже вариантов выберете соответствующий Вашему семейному положению:
 одинок(-а): 1
