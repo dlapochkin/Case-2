@@ -1,3 +1,2 @@
-print('something')
-print("l")
-print("ttt")
+a = input("Введите свое семейное положение")
+b
